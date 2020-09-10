@@ -5,11 +5,195 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css"
-          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap 4 website</title>
 </head>
 <body>
-<h1 class="text-primary">Hello, world!</h1>
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#nav2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="nav2">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main class="container-fluid bg-light text-black-50">
+    <div class="row">
+        <div class="col">
+            <img src="https://via.placeholder.com/500x300"
+                 alt="test image"
+                 class="img-fluid rounded">
+        </div>
+
+        <div class="col-6">
+            <h1 class="display-4">Hello, world!</h1>
+            <div class="h3">Some more content</div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">Card</div>
+                        <img src="https://via.placeholder.com/100" alt="test image" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some description of the card</p>
+                            <a href="#" class="card-link">Link</a>
+                            <a href="#" class="card-link float-right">Link 2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">Card</div>
+                        <img src="https://via.placeholder.com/100" alt="test image" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card tile</h5>
+                            <p class="card-text">Some description of the card</p>
+                            <a href="#" class="card-link">Link</a>
+                            <a href="#" class="card-link float-right">Link 2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">Card</div>
+                        <img src="https://via.placeholder.com/100" alt="test image" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="cart-text">Some description of the card</p>
+                            <a href="#" class="card-link">Link</a>
+                            <a href="#" class="card-link float-right">Link 2</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">Card</div>
+                        <img src="https://via.placeholder.com/100" alt="test image" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="cart-text">Some description of the card</p>
+                            <a href="#" class="card-link">Link</a>
+                            <a href="#" class="card-link">Link 2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <table class="table table-light table-striped table-bordered table-hover">
+                <thead>
+                <tr class="table-primary">
+                    <th>#</th>
+                    <th>First</th>
+                    <th>Last</tH>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>Gogo</th>
+                    <th>Kolev</th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>Pesho</th>
+                    <th>Peshev</th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>Sasho</th>
+                    <th>Petrov</th>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <th>Koko</th>
+                    <th>Zelev</th>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col">
+            <img src="https://via.placeholder.com/200x120"
+                 alt="test image"
+                 class="img-fluid img-thumbnail float-right">
+            Some text
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col border">Auto col</div>
+        <div class="col border">Auto col</div>
+        <div class="col border">Auto col</div>
+    </div>
+
+    <div class="row invisible">
+        <div class="col-3 border visible">Col 3</div>
+        <div class="col-2 border">Col 2</div>
+        <div class="col-7 border visible">Col 7</div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 border">Col 6</div>
+        <div class="col-2 border">Col 2</div>
+        <div class="col-4 border">Col 4</div>
+    </div>
+</main>
+
+<footer class="text-center container-fluid bg-dark text-light">
+    <div class="row">
+        <div class="col-6">
+            © 2020 Copyright
+        </div>
+        <div class="col-3">
+            <div class="text-uppercase">Links</div>
+            <ul class="list-group text-dark">
+                <li class="list-group-item">Website 1</li>
+                <li class="list-group-item">Website 2</li>
+                <li class="list-group-item">Website 3</li>
+                <li class="list-group-item">Website 4</li>
+                <li class="list-group-item">Website 5</li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <div class="text-uppercase">Sites</div>
+            <ul class="list-group text-dark">
+                <li class="list-group-item">About</li>
+                <li class="list-group-item">Contacts</li>
+                <li class="list-group-item">Info</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
