@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+
+    <title>My Single Page Site</title>
+
+    <style>
+        html, body, header, #splash {
+            height: 100%;
+        }
+
+        .spacer {
+            height: 10px;
+            width: 100%;
+            background-color: black;
+            margin: 40px 0;
+            display: block;
+        }
+
+        .spacer2 {
+            height: 60px;
+            display: block;
+        }
+
+        #splash {
+            background: url("https://via.placeholder.com/500x500/ccdddd/eeddee?text=image") no-repeat center center fixed;
+            background-size: cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm fixed-top navbar-dark text-light bg-primary">
+    <button class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#nav1"><span class="navbar-toggler-icon"></span></button>
+
+    <div class="navbar-collapse collapse" id="nav1">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a href="#splash" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a href="#story" class="nav-link">Story</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="" class="nav-link">
+                    <i class="fa fa-twitter-square"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">
+                    <i class="fa fa-facebook-square"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header>
+    <div id="splash">
+        <div class="container-fluid">
+            <div class="row h-100 justify-content-center">
+                <div class="col-md-8 text-center">
+                    <div class="spacer2"></div>
+                    <h1 class="display-1"> Welcome content</h1>
+                    <div class="spacer2"></div>
+                    <h2 class="pt-5">This is my website</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section id="about" class="text-center">
+        <div class="spacer"></div>
+        <h2 class="display-3 mb-4">About Us</h2>
+        <div class="row">
+            <div class="col-md-8 mb-3 text-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </div>
+            <div class="col-md-4">
+                <img src="https://via.placeholder.com/500x500/ccdddd/eeddee?text=image"
+                     alt="test image"
+                     class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="mt-5">
+                <div class="card-deck mt-30">
+                    <div class="card">
+                        <img class="card-img-top"
+                             src="https://via.placeholder.com/500x500/C0C0C0/eeddee?text=image"
+                             alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Silver <span class="fa fa-desktop"></span></h5>
+                            <p class="card-text">Product info</p>
+                            <button type="button" class="btn btn-outline-success">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top"
+                             src="https://via.placeholder.com/500x500/FFD700/eeddee?text=image"
+                             alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Gold <span class="fa fa-desktop"></span></h5>
+                            <p class="card-text">Product info</p>
+                            <button type="button" class="btn btn-outline-success">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top"
+                             src="https://via.placeholder.com/500x500/a0b2c6/eeddee?text=image"
+                             alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Platinum <span class="fa fa-desktop"></span></h5>
+                            <p class="card-text">Product info</p>
+                            <button type="button" class="btn btn-outline-success">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="text-center">
+        <div class="spacer"></div>
+        <h2 class="display-3 mb-4">Projects</h2>
+        <div class="row">
+        </div>
+    </section>
+
+    <section id="story" class="text-center">
+        <div class="spacer"></div>
+        <h2 class="display-3" mb-4>Our Story</h2>
+        <div class="row">
+        </div>
+    </section>
+
+    <section id="contact" class="text-center">
+        <div class="spacer"></div>
+        <h2 class="display-3 mb-4">Contact Us</h2>
+        <div class="row">
+        </div>
+    </section>
+</main>
+
+<footer></footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+</html>
